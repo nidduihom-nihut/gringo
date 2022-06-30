@@ -17,7 +17,7 @@ btn.addEventListener('click', function(){
     optionArray.push(option3.value);
     const result = Math.floor(Math.random()*optionArray.length);
     // console.log(result, optionArray[result]);
-    var final=document.querySelector("#final").innerHTML = "You should do: " +(result, optionArray[result]);
+    var final=document.querySelector("#final").innerHTML = "You should: " +(result, optionArray[result]);
 })
 
 
